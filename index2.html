@@ -9,7 +9,60 @@
       <h3>Register New Student</h3>
       <hr>
       <form class="" action="index.html" method="post">
+        <fieldset>
+          <legend> Personal Information </legend>
 
+          <label for="firstName"> First Name : </label>
+          <input type="text" name="first_name" value="" placeholder="Enter first name" id="firstName">
+
+          <label for="lastName"> Last Name(s) : </label>
+          <input type="text" name="last_name" value="" placeholder="Enter last name" id="lastName">
+
+          <br>
+          <br>
+
+          <label for="Email"> Email : </label>
+          <input type="email" name="email" value="" placeholder="Enter email" id="Email">
+
+          <label for="PhoneNumber"> Phone Number : </label>
+          <input type="text" name="telephone" placeholder="+256700112255" value="">
+
+          <br>
+          <br>
+
+          <label for="Age">Age : </label>
+          <select class="" name="age" id="Age">
+            <option value="1-5">1-5</option>
+            <option value="6-10">6-10</option>
+            <option value="11-15">11-15</option>
+            <option value="16-20">16-20</option>
+            <option value="21-25">21-25</option>
+            <option value="31-35">31-35</option>
+            <option value="36-40">36-40</option>
+          </select>
+
+          <label for="DateOfBirth"> Date Of Birth : </label>
+          <input type="date" name="date_of_birth" min="1990" max="2019" value="" id="DateOfBirth">
+
+          <br>
+          <br>
+
+          <label for="Gender"> Gender : </label>
+          <input type="radio" name="gender" value="Male" id="Gender"> Male
+          <input type="radio" name="gender" value="Female" id="Gender"> Female
+
+          <br>
+          <br>
+
+          <label for="Height">Your Height : </label>
+          0 <input type="range" name="height" min="0" max="10" id="Height" value="7"> 10
+          <br>
+          <br>
+
+          <label for="Bio"> Student's Bio </label>
+          <textarea name="bio" rows="5" cols="50" id="Bio" placeholder="Enter your Bio here!"></textarea>
+
+        </fieldset>
       </form>
     </section>
   </body>
