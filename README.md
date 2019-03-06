@@ -6,3 +6,7 @@ This is the second day assignment, Challenge Three!
 
 In this assignment, I will be creating a link to look like
 https://brunonicholas.github.io and alson create a new repo branch, gh-pages
+
+The site should have:
+[] My Personal Professional Documentation with the following
+  - 
