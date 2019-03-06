@@ -9,7 +9,7 @@ In this assignment, I will be creating a link to look like
 
 The site should have:
 
-[] My Personal Professional Documentation with the following
+[  ] My Personal Professional Documentation with the following
   -  Personal Information
     - A passport sized photo of me
     - My name as the main heading
