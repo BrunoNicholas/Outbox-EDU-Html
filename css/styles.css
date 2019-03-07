@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+header, main, footer {
+  width: 100%;
+  float: left;
+  min-height: 140px;
+}
+#prof_image {
+  width: 100px;
+}
+.left-heading {
+  float: left;
+  min-height: 140px;
+  width: 80%;
+  text-align: center;
+}
+.right-heading {
+  float: left;
+  min-height: 140px;
+  text-align: center;
+}
+main {
+  border-top: thin solid #e7e7e7;
+  text-align: left;
+}
