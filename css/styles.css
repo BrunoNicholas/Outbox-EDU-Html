@@ -26,3 +26,22 @@ main {
   border-top: thin solid #e7e7e7;
   text-align: left;
 }
+
+@media screen and (max-width: 1000px) {
+  /* . */
+}
+@media screen and (orientation: landscape) {
+
+    #nav { float: left }
+
+}
+
+@media screen and (orientation: portrait) {
+
+    #nav { float: none }
+
+}
+@media screen and (resolution: 326dpi) { /* */ }
+
+@media screen and (min-resolution: 96dpi) { /* */ }
+@media screen and (device-aspect-ratio: 16/9) { /* */ }
