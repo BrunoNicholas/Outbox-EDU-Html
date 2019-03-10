@@ -3,10 +3,12 @@
 h1 {
 	color: green;
 	text-transform: uppercase;
+	text-shadow: 1px 1px white;"
 }
 small {
-	color: #c8c8c8;
+	color: #c9c9c9;
 	font-size: 15px;
+	text-shadow: 1px 1px green;"
 }
 /* for the Home page */
 
