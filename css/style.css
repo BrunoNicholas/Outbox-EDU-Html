@@ -21,6 +21,8 @@ header, footer {
 }
 section {
 	background-color: white;
+	border-left: thin solid #a8ff;
+	border-right: thin solid #a8ff;
 	max-height: 450px;
 	min-width: 640px;
 	overflow-y: auto;
