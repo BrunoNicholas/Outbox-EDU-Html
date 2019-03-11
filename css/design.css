@@ -1,0 +1,74 @@
+/* likes.css */
+
+h1 {
+	color: green;
+	text-transform: uppercase;
+	text-shadow: 1px 1px white;"
+}
+small {
+	color: #c9c9c9;
+	font-size: 15px;
+	text-shadow: 1px 1px green;"
+}
+/* for the Home page */
+
+
+/* for the Services page */
+
+
+/* for the News page */
+.newbody {
+	float: left;
+	text-align: center;
+	word-wrap: auto;
+	height: 200px;
+	padding: 10px;
+	display: inline-block;
+	margin-left: 5px;
+	border: thin solid #e7e7e7;
+}
+
+/* for the Contact page */
+
+table, th, td {
+	border: thin solid orange;
+	border-collapse: collapse;
+}
+table {
+	margin-right: 10%;
+	margin-left: 10%;
+
+}
+th, td {
+	padding: 4px;
+	min-width: 100px;
+}
+a {	text-decoration: none; }
+a:hover { color: orange; }
+a:active { color: red; }
+
+/* for the About page */
+
+.aboutbody {
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+#contactform {
+	text-align: left;
+}
+input, textarea {
+	width: 98%;
+	padding: 4px;
+
+}
+.leftinput {
+	width: 35%;
+	border-radius: 4px;
+	background: lightblue;
+	padding: 5px 20px 5px 20px;
+}
+.rightinput {
+	width: 65%;
+}
