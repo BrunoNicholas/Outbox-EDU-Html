@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/survey.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <h1 id="title">My Survey Form</h1>
+      <p id="description"> This form is intended to capture surveying data by
+        qualified professionals not to make mistakes and unexplanable errors</p>
+      <form class="" action="" method="post" id="survey-form">
+        <fieldset>
+          <legend>The Ultimate Survey Form</legend>
+          <div class="inner-form">
+            <span class="label">Name: </span>
+            <input type="text" name="name" value="" id="name" placeholder="Enter full names" required>
+            <i class="label">Email: </i>
+            <input type="email" name="email" value="" id="email"
+              placeholder="Functional email address">
+            <br><br>
+
+            <span class="label">Co. Number: </span>
+            <input type="number" name="number" value="0" min="100" max="999"
+              id="number" title="Hundred numbers only" placeholder="Hundred numbers only">
+
+            <br><br>
+            <span class="label">Region: </span>
+            <select class="" name="region" id="region">
+              <option value="Central">Central</option>
+              <option value="Eastern">Eastern</option>
+              <option value="Western" selected>Western</option>
+              <option value="Nothern">Nothern</option>
+            </select>
+
+            <br><br>
+            <span class="label">Project Status: </span>
+            <input type="radio" name="status" value="Pending"> Pending
+            <input type="radio" name="status" value="Active" checked> Active
+            <input type="radio" name="status" value="Aborted"> Aborted
+            <input type="radio" name="status" value="Closed"> Closed
+
+            <br><br>
+            <span class="label">Land Square Unites (Acres): </span>
+            <input type="checkbox" name="land_units" value="0-5"> 0 - 5
+            <input type="checkbox" name="land_units" value="6-10" checked> 6 - 10
+            <input type="checkbox" name="land_units" value="11-15"> 11 - 15
+            <input type="checkbox" name="land_units" value="16-20"> 16 - 20
+            <input type="checkbox" name="land_units" value="21-25"> 21 - 25
+
+            <br><br>
+            <span class="label"> Details / Comments: </span><br>
+            <textarea name="comments" rows="5" cols="" style="width:100%;"></textarea>
+
+            <br><br>
+            <input type="submit" value="Submit Details">
+
+            <br><br>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
